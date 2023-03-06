@@ -1,0 +1,495 @@
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/*  CAPA COM IMAGEM*/
+
+.tela-toda{  
+    background-size: cover;
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0.404), rgb(0, 0, 0)), url(./imagens/BR-pt-20230227-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.logo-netflix{
+    width: 150px;
+}
+
+#globo{
+    width: 20px;
+}
+
+#portugues{
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 2px;
+    padding: 3px;
+    margin-right: 30px;
+    
+}
+
+#entrar{
+    background-color:red; 
+    color: white;
+    border-radius: 2px;
+    padding: 2px 15px;
+    font-size: 18px;
+}
+
+.dividido{
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+.caixa-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.caixa-text > h1{
+font-size: 70px;
+}
+
+.caixa-text > h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.caixa-text > h3{
+    font-weight: 100;
+}
+
+#email{
+    width: 400px;
+    height: 50px;
+    border-color: transparent;
+}
+
+#btn-email{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    margin-left: -5px;
+    border-color: transparent;
+}
+
+
+/* APROVEITE NA TV*/
+
+.tv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text-tv > h1{
+    font-size: 60px;
+}
+
+.text-tv > h2{
+    font-weight: 200;
+}
+
+
+/* BAIXE PARA ASSISTIR OFFLINE*/
+.card{
+    background-color: black;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.meio{
+    width: 400px;
+}
+
+ #download{
+    width: 30px;
+ }
+
+.text-card > h1{
+    font-size: 20px;
+}
+
+.text-card > a{
+    text-decoration: none;
+}
+
+.img-card{
+    width: 60px;
+}
+
+/*PERGUNTAS FREQUENTES*/
+
+
+
+.btn-txt{
+    max-width: 100%;
+    background-color: rgb(68, 68, 68);
+    
+}
+
+.btn-txt > p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+
+.btn-btn-btn{
+    width: 1000px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 0;
+    font-size: 20px;
+    background-color: rgb(68, 68, 68);
+}
+
+.txt-perguntas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-perguntas >h1{
+    font-size: 60px;
+}
+
+.txt-perguntas >h2{
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+
+/*RODAPÉ*/
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-li{
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+    margin: 5px;
+}
+
+.txt-li:hover{
+    color: white;
+}
+
+.li-style{
+    list-style-type:none;
+    
+}
+
+footer > h3{
+    font-size: 15px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.li-style > h4, #portugues{
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+
+
+@media screen and (max-width:768px){
+    /* PRIMEIRA TELA*/
+    
+    .dividido{
+        display: flex;
+        justify-content: space-between
+    }
+
+    .botoes{
+        display: flex;
+    }
+
+    #entrar, #portugues{
+        padding: 2px;
+        margin:2px;
+        font-size: 12px;
+    }
+    .logo-netflix{
+        width: 90px;
+    }
+
+    .caixa-text{
+        text-align: center;
+    }
+
+    .caixa-text > h1{
+        font-size: 40px;
+    }
+
+    .caixa-text > h2{
+        font-size: 30px;
+    }
+    .caixa-text > h3{
+        font-size: 20px;
+    }
+
+    #email{
+        margin-bottom: 10px;
+    }
+
+    /* APROVEITE NA TV*/
+    .tv{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .img-tv1{
+        width: 100%;
+    }
+    
+    .text-tv > h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .text-tv > h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* ASSISTA QUANDO QUISER*/
+
+    .img-tv2{
+        width: 100%;
+    }
+
+    .tv-2{
+        display:flex ;
+        flex-direction: column-reverse;
+    }
+
+    /* INFANTIL*/
+
+    .img-infantil{
+        width: 100%;
+    }
+
+    /*BAIXE PARA ASSISTIR OFFLINE*/
+
+    .off-cont{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .img-serie{
+        width: 100%;
+    }
+
+    .card{
+        margin: 0;
+        padding: 0;
+    }
+
+    .meio{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-card>h1{
+        font-size: 15px;
+    }
+
+    .text-card>a{
+        font-size: 10px;
+    }
+
+    .serie-off{
+        width: 100%;
+    }
+
+ 
+    /* PERGUNTAS FREQUENTES*/
+
+    .btn-btn-btn{
+        width: 380px;
+        font-size: 15px;
+    }
+
+    .txt-perguntas >h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .txt-perguntas >h2{
+        text-align: center;
+    }
+
+    #email{
+        width: 90%;
+        align-items: center;
+    }
+
+    .form-perguntas{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*RODAPÉ*/
+    .rodape{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;    
+    }
+
+    .txt-li{
+        font-size: 12px;
+    }
+
+    #portugues2{
+        display: none;
+    }
+
+    .li-style>h4{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    /* PRIMEIRA TELA*/
+    
+    .dividido{
+        display: flex;
+    }
+
+
+    #entrar, #portugues{
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    .logo-netflix{
+        width:200px;
+    }
+
+    .caixa-text{
+        text-align: center;
+        height: 800px;
+    }
+
+    .caixa-text > h1{
+        font-size: 70px;
+    }
+
+    .caixa-text > h2{
+        font-size: 40px;
+    }
+    .caixa-text > h3{
+        font-size: 30px;
+    }
+
+    #email{
+        width: 400px;
+        height: 50px;
+        border-color: transparent;
+        margin-top: 20px;
+    }
+    
+    #btn-email{
+        height: 50px;
+        width: 100px;
+        color: white;
+        background-color: red;
+        margin-left: -5px;
+        border-color: transparent;
+    }
+
+    /* ASSISTA QUANDO QUISER*/
+
+
+    .tv-2{
+        display:flex ;
+        flex-direction: row;
+    }
+
+/*BAIXE PARA ASSISTIR OFFLINE*/
+
+    .serie >h1{
+        font-size: 50px;
+    
+    }
+
+    .text-card>h1{
+        font-size: 25px;
+    }
+
+    .text-card>a{
+        font-size: 20px;
+    }
+
+
+    /* PERGUNTAS FREQUENTES*/
+
+    .btn-btn-btn{
+        width: 380px;
+        font-size: 15px;
+    }
+
+    .txt-perguntas >h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .txt-perguntas >h2{
+        font-size: 20px;
+    }
+
+    .form-perguntas{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+        
+    
+
+    
+
+
+
+
+}
