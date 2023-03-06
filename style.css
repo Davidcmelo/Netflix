@@ -219,11 +219,15 @@ footer > h3{
     justify-content: space-evenly;
 }
 
-.li-style > h4, #portugues{
+.li-style > h4, #portugues2{
     color: gray;
     font-size: 15px;
     font-weight: 100;
     margin-top: 5px;
+}
+
+#portugues2{
+    background-color: transparent;
 }
 
 
@@ -484,6 +488,8 @@ footer > h3{
         flex-direction: column;
         align-items: center; 
     }
+
+    
         
     
 
